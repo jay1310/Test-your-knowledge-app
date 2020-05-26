@@ -1,21 +1,28 @@
 body {
-  background-color: #C8D0D2;
+  background: url('./image.jpg');
+  background-size: cover;
   margin: 0;
 }
 
 .container {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 1rem 2rem;
 }
 
+.logo{
+  width:100%
+}
+
 .header {
+  margin: 5px 10px;
+  border-radius: .3em;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: white;
+  background-color: rgba(8, 247, 195, 0.308);
   padding: 0 1.5rem;
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
+  box-shadow: 0 0 5px 2px rgba(7, 19, 126, 0.3);
 }
 
 .form-group {
@@ -25,17 +32,18 @@ body {
 }
 
 .form-group > label {
-  color: #777;
-  font-size: .75rem;
+  color: rgb(242, 238, 245);
+  font-size: 1rem;
   margin-bottom: .25rem;
 }
 
 .btn {
-  background-color: hsl(200, 100%, 50%);
-  color: white;
-  padding: .5em 1em;
+  background-color: hsl(17, 100%, 50%);
+  color: rgb(232, 233, 248);
+  padding: .7em 1em;
   border-radius: .3em;
   border: none;
+  margin-top: 4px;
   cursor: pointer;
 }
 
@@ -46,18 +54,20 @@ body {
 .card-grid {
   display: grid;
   align-items: center;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1rem;
 }
 
 .card {
+  font-size: 120%;
+  font-weight: 600;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
   border-radius: .25rem;
-  box-shadow: 0 0 5px 2px rgba(0, 0, 0, .3);
-  background-color: white;
+  box-shadow: 0 0 5px 2px rgba(248, 77, 9, 0.767);
+  background-color: rgba(228, 212, 200, 0.911);
   transform-style: preserve-3d;
   transition: 150ms;
   cursor: pointer;
@@ -79,6 +89,7 @@ body {
 
 .card .front,
 .card .back {
+  color: rgb(41, 6, 6);
   position: absolute;
   padding: 1rem;
   backface-visibility: hidden;
@@ -94,8 +105,8 @@ body {
 
 .flashcard-option {
   margin-top: .25rem;
-  color: #555;
-  font-size: .75rem;
+  color: rgb(53, 51, 51);
+  font-size: 1rem;
 }
 
 .flashcard-option:first-child {

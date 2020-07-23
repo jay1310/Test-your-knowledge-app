@@ -2,7 +2,9 @@ Project Details:
 
 Author: Jay Shrivastava,
 
-Title: Test Your Knowledge,
+Title: Test Your Knowledge
+
+Link: http://flashcards-by-jay.herokuapp.com/
 
 Description: This is a flashcard quiz app created using react.js with the help of Trivia api.
 

@@ -20,7 +20,7 @@ If you want to run this app on your local machine then follow the given steps:
 
 1. Clone the app using command ```git clone```
 2. Perform: ```npm install```
-Run the react app using command ```npm start```
+3. Run the react app using command ```npm start```
 
 ## SCREENSHOT
 
